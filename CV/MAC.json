@@ -1,0 +1,294 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.3"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Fernando",
+      "surnames": "Serrano Carpena",
+      "title": "Full Stack & Computer Graphics",
+      "description": "Soy apasionado de la informática desde los 11 años, y siempre he orientado toda mi vida hacia lo que soy ahora, desde los estudios hasta el lugar donde vivo y los trabajos que escojo.",
+      "location": {
+        "notes": "Valencia"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "github",
+        "URL": "https://github.com/ferserc1"
+      },
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/fernando-serrano-carpena-b616b763/"
+      }
+    ],
+    "interestingFacts": [
+      {
+        "topic": "El segundo mejor remedio para desatascarte de un problema: la música",
+        "fact": "La música tiene la capacidad de cambiar las conexiones de tu cerebro de manera que abordas los problemas de tu vida diaria y tu profesión de forma mucho más creativa. Toco la guitarra, el bajo y el piano. "
+      },
+      {
+        "topic": "El mejor remedio para cuando te quedas atascado en un problema: el deporte",
+        "fact": "Me encanta el deporte hasta el punto de integrarlo en mi trabajo. He podido comprobar que me resulta imprescindible para mejorar en mi trabajo, y lo recomiendo a todo el mundo, especialmente a los que tenemos una profesión sedentaria. No tengo ninguna duda que cada hora que dedicas a deporte te ahorra dos horas de trabajo no productivo."
+      },
+      {
+        "topic": "Me gusta viajar, pero no el viaje en sí",
+        "fact": "Si inventaran el teletransporte viajaría más. Me encanta ver sitios nuevos, conocer la historia de ciudades y monumentos, hacer senderismo en montaña o cerca del mar... pero ODIO el viaje en sí. No me gusta hacer colas, no me gusta pasar controles de seguridad, no me gusta esperar en estaciones... Esto es bastante relevante, porque no estoy dispuesto a aceptar ningún trabajo en el que me pase la vida en aeropuertos."
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Grupo SIM",
+          "image": {
+            "alt": "sim3d-logo-blanco.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/1d5916df-7525-4e30-a232-bab02048b972_sim3d-logo-blanco.png"
+          },
+          "URL": "https://demo.sim3d.es"
+        },
+        "roles": [
+          {
+            "name": "Consultor externo en Grupo SIM",
+            "startDate": "2015-07-01",
+            "challenges": [
+              {
+                "description": "Desempeño trabajos de consultor externo mediante seminarios y cursillos para la empresa Grupo SIM, que desarrolla una herramienta de venta de sofás modulares en 3D utilizando mi motor gráfico bg2 engine.\n\nLes proporciono asesoramiento y formación en nuevas características de mi motor gráfico, así como en otras tecnologías útiles para el proyecto."
+              }
+            ],
+            "competences": [
+              {
+                "name": "C++",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "Svelte",
+                "type": "technology"
+              },
+              {
+                "name": "Unreal",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Universidad Politécnica de Valencia",
+          "image": {
+            "alt": "logo_paella.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/650938fa-9953-4466-9173-e6564ccd9d51_logo_paella.png"
+          },
+          "URL": "https://paellaplayer.upv.es"
+        },
+        "roles": [
+          {
+            "name": "Desarrollador proyecto Paella Player",
+            "startDate": "2012-02-01",
+            "challenges": [
+              {
+                "description": "Paella Player es un reproductor de vídeo web multi stream, que actualmente es el reproductor de vídeo por defecto del proyecto Opencast para grabación y transmisión de clases. Soy el encargado del roadmap del proyecto, de su administración, documentación, desarrollo y también atiendo los repositorios de Github, las incidencias y pull requests."
+              }
+            ],
+            "competences": [
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Webpack",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "details": {
+          "name": "bg2 engine",
+          "description": "Motor gráfico multi API y multi lenguaje (JavaScript y C++) orientado al uso de aplicaciones de productividad. Todas las tecnologías implicadas en el proyecto están orientadas a proporcionar herramientas que sean sencillas de integrar en procesos de producción, como por ejemplo, catálogos de productos en 3D.\n\nEl motor gráfico dispone de un formato de modelo 3D propio que es extensible, para poder añadir información a los archivos 3D que permitan la integración con otras herramientas.\n\nTambién dispone de bibliotecas que permiten importar modelos 3D del motor gráfico en herramientas de terceros, en tiempo de ejecución. Esto permite, por ejemplo, cargar escenas desde un servidor web en una aplicación desarrollada con Unreal Engine",
+          "URL": "https://www.bg2engine.org",
+          "image": {
+            "alt": "logo_2a.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/9675f27d-709f-4441-a21b-e402851dbd3d_logo_2a.png"
+          }
+        },
+        "type": "openSource",
+        "roles": [
+          {
+            "name": "Developer",
+            "startDate": "2010-04-01",
+            "competences": [
+              {
+                "name": "C++",
+                "type": "technology"
+              },
+              {
+                "name": "Electron",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Unreal",
+                "type": "technology"
+              },
+              {
+                "name": "webGL",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "English"
+      },
+      {
+        "name": "Spanish"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "AngularJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "C++",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Webpack",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Swift",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Git",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Svelte",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "webGL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "OpenGL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "RollupJS",
+          "type": "technology"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "linkedin",
+          "URL": "https://www.linkedin.com/in/fernando-serrano-carpena-b616b763/"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "C++",
+          "type": "technology"
+        },
+        {
+          "name": "Git",
+          "type": "technology"
+        },
+        {
+          "name": "Github",
+          "type": "technology"
+        },
+        {
+          "name": "JavaScript",
+          "type": "technology"
+        },
+        {
+          "name": "OpenGL",
+          "type": "technology"
+        },
+        {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "MySQL",
+          "type": "technology"
+        },
+        {
+          "name": "PHP",
+          "type": "technology"
+        }
+      ]
+    }
+  }
+}
