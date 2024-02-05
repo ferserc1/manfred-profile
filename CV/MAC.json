@@ -190,12 +190,6 @@
       },
       {
         "skill": {
-          "name": "JavaScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "NodeJS",
           "type": "technology"
         }
@@ -203,6 +197,12 @@
       {
         "skill": {
           "name": "OpenGL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
           "type": "technology"
         }
       },
@@ -345,11 +345,11 @@
   "manfredSpecificData": {
     "mainStackTechs": [
       {
-        "name": "JavaScript",
+        "name": "NodeJS",
         "type": "technology"
       },
       {
-        "name": "NodeJS",
+        "name": "React",
         "type": "technology"
       },
       {
