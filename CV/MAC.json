@@ -1,32 +1,22 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
     "language": "ES",
-    "MACVersion": "0.3"
+    "MACVersion": "0.5"
   },
   "aboutMe": {
     "profile": {
       "name": "Fernando",
       "surnames": "Serrano Carpena",
       "title": "Full Stack & Computer Graphics",
-      "description": "",
+      "description": "Soy apasionado de la informática desde los 11 años, y siempre he orientado toda mi vida hacia lo que soy ahora, desde los estudios hasta el lugar donde vivo y los trabajos que escojo.",
       "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJb7Dv8ExPYA0ROR1_HwFRo7Q)",
         "country": "España",
         "region": "Comunidad Valenciana",
-        "municipality": "Valencia",
-        "notes": "Autocompleted using Google Maps API"
+        "municipality": "Valencia"
       }
     },
-    "relevantLinks": [
-      {
-        "type": "github",
-        "URL": "https://github.com/ferserc1"
-      },
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/fernando-serrano-carpena-b616b763/"
-      }
-    ],
     "interestingFacts": [
       {
         "topic": "El segundo mejor remedio para desatascarte de un problema: la música",
@@ -40,6 +30,16 @@
         "topic": "Me gusta viajar, pero no el viaje en sí",
         "fact": "Si inventaran el teletransporte viajaría más. Me encanta ver sitios nuevos, conocer la historia de ciudades y monumentos, hacer senderismo en montaña o cerca del mar... pero ODIO el viaje en sí. No me gusta hacer colas, no me gusta pasar controles de seguridad, no me gusta esperar en estaciones... Esto es bastante relevante, porque no estoy dispuesto a aceptar ningún trabajo en el que me pase la vida en aeropuertos."
       }
+    ],
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/fernando-serrano-carpena-b616b763/"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/ferserc1"
+      }
     ]
   },
   "experience": {
@@ -48,8 +48,8 @@
         "organization": {
           "name": "Grupo SIM",
           "image": {
-            "alt": "sim3d-logo-blanco.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/1d5916df-7525-4e30-a232-bab02048b972_sim3d-logo-blanco.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/1d5916df-7525-4e30-a232-bab02048b972_sim3d-logo-blanco.png",
+            "alt": "sim3d-logo-blanco.png"
           },
           "URL": "https://demo.sim3d.es"
         },
@@ -91,8 +91,8 @@
         "organization": {
           "name": "Universidad Politécnica de Valencia",
           "image": {
-            "alt": "logo_paella.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/650938fa-9953-4466-9173-e6564ccd9d51_logo_paella.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/650938fa-9953-4466-9173-e6564ccd9d51_logo_paella.png",
+            "alt": "logo_paella.png"
           },
           "URL": "https://paellaplayer.upv.es"
         },
@@ -126,8 +126,8 @@
           "description": "Motor gráfico multi API y multi lenguaje (JavaScript y C++) orientado al uso de aplicaciones de productividad. Todas las tecnologías implicadas en el proyecto están orientadas a proporcionar herramientas que sean sencillas de integrar en procesos de producción, como por ejemplo, catálogos de productos en 3D.\n\nEl motor gráfico dispone de un formato de modelo 3D propio que es extensible, para poder añadir información a los archivos 3D que permitan la integración con otras herramientas.\n\nTambién dispone de bibliotecas que permiten importar modelos 3D del motor gráfico en herramientas de terceros, en tiempo de ejecución. Esto permite, por ejemplo, cargar escenas desde un servidor web en una aplicación desarrollada con Unreal Engine",
           "URL": "https://www.bg2engine.org",
           "image": {
-            "alt": "logo_2a.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/9675f27d-709f-4441-a21b-e402851dbd3d_logo_2a.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/9675f27d-709f-4441-a21b-e402851dbd3d_logo_2a.png",
+            "alt": "logo_2a.png"
           }
         },
         "type": "openSource",
@@ -165,15 +165,23 @@
   "knowledge": {
     "languages": [
       {
-        "name": "English",
+        "name": "EN",
+        "fullName": "Inglés",
         "level": "Limited working proficiency"
       },
       {
-        "name": "Spanish",
+        "name": "ES",
+        "fullName": "Español",
         "level": "Limited working proficiency"
       }
     ],
     "hardSkills": [
+      {
+        "skill": {
+          "name": "AngularJS",
+          "type": "technology"
+        }
+      },
       {
         "skill": {
           "name": "C++",
@@ -182,13 +190,7 @@
       },
       {
         "skill": {
-          "name": "OpenGL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "webGL",
+          "name": "Git",
           "type": "technology"
         }
       },
@@ -200,19 +202,31 @@
       },
       {
         "skill": {
+          "name": "NodeJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "OpenGL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "RollupJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
           "name": "Svelte",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "AngularJS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "NodeJS",
+          "name": "Swift",
           "type": "technology"
         }
       },
@@ -230,19 +244,7 @@
       },
       {
         "skill": {
-          "name": "RollupJS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Swift",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Git",
+          "name": "webGL",
           "type": "technology"
         }
       }
@@ -253,15 +255,35 @@
         "degreeAchieved": true,
         "name": "Ingeniero Técnico Informático",
         "startDate": "2002-09-01",
-        "finishDate": "2005-06-01",
         "institution": {
           "name": "Universidad Politécnica de Valencia",
           "description": "Título de Ingeniero Técnico Informático.",
           "URL": "https://www.upv.es",
           "image": {
-            "alt": "marca_UPV_principal_color.svg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/31362f41-dd88-4e5c-bea2-100038950af4_marca_upv_principal_.svg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/07/04/31362f41-dd88-4e5c-bea2-100038950af4_marca_upv_principal_.svg",
+            "alt": "marca_UPV_principal_color.svg"
           }
+        },
+        "finishDate": "2005-06-01"
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Aprendizaje Continuo",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Capacidad de autogestión",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visión crítica",
+          "type": "practice"
         }
       }
     ]
@@ -270,9 +292,16 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/fernando-serrano-carpena-b616b763/"
+          "URL": "https://www.linkedin.com/in/fernando-serrano-carpena-b616b763/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/ferserc1",
+          "type": "github"
         }
+      ],
+      "contactMails": [
+        "ferserc1@gmail.com"
       ]
     },
     "preferences": {
@@ -318,5 +347,14 @@
       ]
     },
     "status": "openToOffers"
+  },
+  "manfredSpecificData": {
+    "desiredJobDescription": "Me gusta buscar soluciones a problemas tecnológicos complejos, especialmente aquellos relacionados con los gráficos por computador.\n\nTengo buen nivel escrito, y razonablemente bueno a nivel conversacional. Ya tengo interiorizado el inglés en mi documentación y mis commits en git (y no dejo que ninguno de mis programadores escriba código o comentarioes que no sean en inglés), pero me gustaría poder hablar con mi equipo en mi lengua materna. Preferiría trabajar con empresas de habla hispana.",
+    "goodPractices": "diseño basado en bibliotecas y componentes, patrones de diseño, refactorización, SCRUM para organización de proyectos",
+    "projects": [
+      {
+        "name": "bg2 engine"
+      }
+    ]
   }
 }
