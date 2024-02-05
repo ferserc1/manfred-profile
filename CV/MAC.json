@@ -190,12 +190,6 @@
       },
       {
         "skill": {
-          "name": "Git",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "JavaScript",
           "type": "technology"
         }
@@ -349,6 +343,28 @@
     "status": "openToOffers"
   },
   "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "JavaScript",
+        "type": "technology"
+      },
+      {
+        "name": "NodeJS",
+        "type": "technology"
+      },
+      {
+        "name": "Svelte",
+        "type": "technology"
+      },
+      {
+        "name": "TypeScript",
+        "type": "technology"
+      },
+      {
+        "name": "webGL",
+        "type": "technology"
+      }
+    ],
     "desiredJobDescription": "Me gusta buscar soluciones a problemas tecnológicos complejos, especialmente aquellos relacionados con los gráficos por computador.\n\nTengo buen nivel escrito, y razonablemente bueno a nivel conversacional. Ya tengo interiorizado el inglés en mi documentación y mis commits en git (y no dejo que ninguno de mis programadores escriba código o comentarioes que no sean en inglés), pero me gustaría poder hablar con mi equipo en mi lengua materna. Preferiría trabajar con empresas de habla hispana.",
     "goodPractices": "diseño basado en bibliotecas y componentes, patrones de diseño, refactorización, SCRUM para organización de proyectos",
     "projects": [
