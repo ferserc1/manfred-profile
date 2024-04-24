@@ -301,6 +301,10 @@
     "preferences": {
       "preferredCompetences": [
         {
+          "name": "Astro",
+          "type": "technology"
+        },
+        {
           "name": "C++",
           "type": "technology"
         },
