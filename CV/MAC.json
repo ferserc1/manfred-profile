@@ -329,6 +329,10 @@
           "type": "technology"
         },
         {
+          "name": "Svelte",
+          "type": "technology"
+        },
+        {
           "name": "TypeScript",
           "type": "technology"
         }
