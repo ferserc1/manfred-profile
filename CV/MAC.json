@@ -329,6 +329,10 @@
           "type": "technology"
         },
         {
+          "name": "Rust",
+          "type": "technology"
+        },
+        {
           "name": "Svelte",
           "type": "technology"
         },
